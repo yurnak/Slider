@@ -19,7 +19,6 @@ body {
   width: 100%;
   display: flex;
   padding: 0 20px;
-
 }
 
 .slide {
@@ -48,6 +47,7 @@ transition: all 500ms ease-in-out;
 .slide.active {
   flex: 10;
 }
+
 .slide.active h3 {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
